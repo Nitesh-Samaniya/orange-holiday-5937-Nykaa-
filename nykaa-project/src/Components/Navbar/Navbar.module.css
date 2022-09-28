@@ -1,0 +1,21 @@
+/* NavbarPart1 */
+.img_pos{
+    display: inline-block;
+  }
+  .div_pos{
+    color: black;
+    position: relative;
+    bottom: 43px;
+    left: 100px
+  }
+
+
+/* Navbar Part 2 */
+.title_align_navbarPart2{
+  margin-top: 22px;
+}
+
+/* Navbar Part 3 */
+/* .title_align_navbarPart3{
+  
+} */
