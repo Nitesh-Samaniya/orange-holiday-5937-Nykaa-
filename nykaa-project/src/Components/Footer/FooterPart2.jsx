@@ -1,5 +1,5 @@
 import {Box, Grid, Text} from "@chakra-ui/react";
-import "./Footer.css"
+// import "./Footer.css"
 
 function FooterPart2() {
   return (
@@ -12,57 +12,62 @@ function FooterPart2() {
         >
             <Box>
                 <Text fontSize='lg' mb={3}>Who are we?</Text>
-                <Text fontSize='sm'>Careers</Text>
-                <Text fontSize='sm'>Authenticity</Text>
-                <Text fontSize='sm'>Press</Text>
-                <Text fontSize='sm'>Testimonials</Text>
-                <Text fontSize='sm'>Nykaa CSR</Text>
-                <Text fontSize='sm'>Responsible Disclosure</Text>
-                <Text fontSize='sm'>Investor Relations</Text>
+                <Text
+                    fontSize='sm'
+                    _hover={{ color:'red.500' }}
+                >
+                    Careers
+                </Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Authenticity</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Press</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Testimonials</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa CSR</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Responsible Disclosure</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Investor Relations</Text>
             </Box>
 
             <Box>
                 <Text fontSize='lg' mb={3}>Help</Text>
-                <Text fontSize='sm'>Contact Us</Text>
-                <Text fontSize='sm'>Frequently asked questions</Text>
-                <Text fontSize='sm'>Store Locator</Text>
-                <Text fontSize='sm'>Cancellation & Return</Text>
-                <Text fontSize='sm'>Nykaa CSR</Text>
-                <Text fontSize='sm'>Shipping & Delivery</Text>
-                <Text fontSize='sm'>Sell on Nykaa</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Contact Us</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Frequently asked questions</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Store Locator</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Cancellation & Return</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa CSR</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Shipping & Delivery</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Sell on Nykaa</Text>
             </Box>
 
             <Box>
                 <Text fontSize='lg' mb={3}>Inspire Me</Text>
-                <Text fontSize='sm'>Beauty Book</Text>
-                <Text fontSize='sm'>Nykaa TV</Text>
-                <Text fontSize='sm'>Nykaa Network</Text>
-                <Text fontSize='sm'>Buying Guides</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Beauty Book</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa TV</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa Network</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Buying Guides</Text>
             </Box>
 
             <Box>
                 <Text fontSize='lg' mb={3}>Quick Links</Text>
-                <Text fontSize='sm'>Offer Zone</Text>
-                <Text fontSize='sm'>New Launches</Text>
-                <Text fontSize='sm'>Nykaa Man</Text>
-                <Text fontSize='sm'>Nykaa Fashion</Text>
-                <Text fontSize='sm'>Nykaa Pro</Text>
-                <Text fontSize='sm'>Nykaa femina beauty awards winners 2019</Text>
-                <Text fontSize='sm'>Site Map</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Offer Zone</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>New Launches</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa Man</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa Fashion</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa Pro</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Nykaa femina beauty awards winners 2019</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Site Map</Text>
             </Box>
 
             <Box>
                 <Text fontSize='lg' mb={3}>Top Categories</Text>
-                <Text fontSize='sm'>Makeup</Text>
-                <Text fontSize='sm'>Skin</Text>
-                <Text fontSize='sm'>Hair</Text>
-                <Text fontSize='sm'>Personal Care</Text>
-                <Text fontSize='sm'>Appliances</Text>
-                <Text fontSize='sm'>Mom and Baby</Text>
-                <Text fontSize='sm'>Wellness</Text>
-                <Text fontSize='sm'>Fragrance</Text>
-                <Text fontSize='sm'>Natural</Text>
-                <Text fontSize='sm'>Luxe</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Makeup</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Skin</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Hair</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Personal Care</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Appliances</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Mom and Baby</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Wellness</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Fragrance</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Natural</Text>
+                <Text _hover={{ color:'red.500' }} fontSize='sm'>Luxe</Text>
             </Box>
 
         </Grid>
