@@ -7,7 +7,7 @@ import return_accepted from "../../Images/footer/return_accepted.svg"
 function FooterPart3() {
   return (
     <Box>
-        <Flex justify={"space-between"} w='80%' m='auto' mt={8}>
+        <Flex justify={"space-between"} w='80%' m='auto' mt={9} mb='60px'>
             {/* <Box> */}
 
                 <Flex>   
