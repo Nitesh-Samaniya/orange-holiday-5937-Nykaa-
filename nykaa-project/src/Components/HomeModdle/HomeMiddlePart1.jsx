@@ -20,7 +20,7 @@ function HomeMiddlePart1() {
                 md: "repeat(3,1fr)",
                 lg: "repeat(4,1fr)"
                 }}
-                gap={5}
+                gap={5} 
             >
                 <Box>
                     <Image src={img1} alt="img1"/>
