@@ -20,7 +20,7 @@ function NavbarPart1() {
         </HStack>
         </Flex>
       </Box>
-    </Box>
+     </Box>
   )
 }
 

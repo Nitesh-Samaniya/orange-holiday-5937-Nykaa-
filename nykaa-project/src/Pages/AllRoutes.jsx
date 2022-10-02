@@ -10,10 +10,23 @@ import HealthAndWellness from"./HealthAndWellness";
 import Men from "./Men";
 import Fragrance from "./Frangrance";
 import PopUps from "./Popups";
+import Home from "./Home";
+import ShowDetails from "./ShowDetails";
+import Cart from "./Cart";
+import Login from "./Login";
  
 function AllRoutes() {
   return (
     <Routes>
+
+        <Route path="/" element={<Home />}/>
+
+        <Route path="/:category/:id" element={<ShowDetails />}/>
+
+        <Route path="/login" element={<Login />} />
+
+        <Route path="/cart" element={<Cart />}/>
+
         <Route path="/makeup" element={<MakeUp />}/>
 
         <Route path="/skin" element={<Skin />}/>

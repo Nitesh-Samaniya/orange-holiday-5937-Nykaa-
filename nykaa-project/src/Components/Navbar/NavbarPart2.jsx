@@ -2,6 +2,7 @@ import { Box, Flex, Image, Input, Spacer } from '@chakra-ui/react'
 import React from 'react'
 import Nykaa_icon from "../../Images/Nykaa_icon.png"
 import style from "./Navbar.module.css";
+import {Link} from "react-router-dom"
 
 
 function NavbarPart2() {
@@ -10,8 +11,10 @@ function NavbarPart2() {
         <Box w="78%" style={{ margin:'auto', marginTop:'-30px'}}>
             <Flex>
 
+                
+
                 <Flex justify={'space-between'} w="55%">
-                    <Box><Image boxSize='70px' src={Nykaa_icon} alt="Nykaa_icon"/></Box>
+                    <Box><Link to='/'><Image boxSize='70px' src={Nykaa_icon} alt="Nykaa_icon"/></Link></Box>
                     <Box className={style.title_align_navbarPart2}><b>Categories</b></Box>
                     <Box className={style.title_align_navbarPart2}><b>Brands</b></Box>
                     <Box className={style.title_align_navbarPart2}><b>Luxe</b></Box>
@@ -24,7 +27,7 @@ function NavbarPart2() {
                 <Flex  justify={'space-between'} w="30%">
                     <Box className={style.title_align_navbarPart2}><Input style={{borderRadius:'10px'}} variant='filled' type="text" placeholder='Search On Nykaa'/></Box>
                     <Box className={style.title_align_navbarPart2} style={{color:'gray'}}>Account</Box>
-                    <Box className={style.title_align_navbarPart2}><b>Cart</b></Box>
+                    <Box className={style.title_align_navbarPart2}><b><Link to='/cart'>Cart</Link></b></Box>
                 </Flex>
 
             </Flex>
